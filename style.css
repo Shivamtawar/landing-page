@@ -7,10 +7,11 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f5f5f5;
+    color: #2b2b2b;
+    background-color: #f5f5f5; 
     line-height: 1.6;
 }
 
@@ -33,7 +34,7 @@ body {
     justify-content: center;
     text-align: center;
     background-color: #333;
-    color: #fff;
+    color: #fff; 
     height: 100vh;
     animation: fadeIn 1s ease-in-out;
 }
@@ -42,18 +43,21 @@ body {
     font-size: 2rem;
     margin-bottom: 0.5rem;
     animation: fadeIn 1.2s ease-in-out;
+    color: #ffffff; 
 }
 
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
     animation: fadeIn 1.5s ease-in-out;
+    color: #ffffff;
 }
 
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
     animation: fadeIn 1.8s ease-in-out;
+    color: #ffffff;
 }
 
 .cta-button {
@@ -82,7 +86,7 @@ body {
 .services h1 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-    color: #333;
+    color: #111111; 
     animation: fadeIn 1.5s ease-in-out;
 }
 
@@ -130,13 +134,42 @@ body {
 
 .card-content h2 {
     font-size: 1.5rem;
-    color: #333;
+    color: #111111; 
     margin-bottom: 0.5rem;
     animation: fadeIn 1.8s ease-in-out;
 }
 
 .card-content p {
     font-size: 1rem;
-    color: #666;
+    color: #333333; 
     animation: fadeIn 2s ease-in-out;
+}
+
+/* Section-specific text for accessibility */
+.section-light p,
+.section-light span {
+    color: #333333; 
+}
+
+.section-dark p,
+.section-dark span {
+    color: #f0f0f0;
+}
+
+/* Links */
+a {
+    color: #0056b3; 
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover,
+a:focus {
+    color: #003d80; 
+    text-decoration: underline;
+}
+
+/* Headings general contrast */
+h1, h2, h3 {
+    color: #111111; 
 }
